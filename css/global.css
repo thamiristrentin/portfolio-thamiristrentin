@@ -1,0 +1,47 @@
+* {margin: 0; padding: 0; overflow-x: hidden;}
+
+body {
+    background-color: var(--preto);
+}
+
+:root {
+    --preto: #1C1C1E;
+    --branco: #FFFFFF;
+    --marsala: #72263A;
+    --roxo: #5B2245;
+}
+
+@font-face {
+    font-family: UbuntuSans_Condensed-Thin;
+    src: url("../fontes/UbuntuSans_Condensed-Thin.ttf");
+}
+
+@font-face {
+    font-family: UbuntuSans-Light;
+    src: url("../fontes/UbuntuSans-Light.ttf");
+}
+
+@font-face {
+    font-family: UbuntuSans-Medium;
+    src: url("../fontes/UbuntuSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: UbuntuSans-SemiBold;
+    src: url("../fontes/UbuntuSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: UbuntuSans-SemiBoldItalic;
+    src: url("../fontes/UbuntuSans-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: UbuntuSans-Thin;
+    src: url("../fontes/UbuntuSans-Thin.ttf");
+}
+
+@font-face {
+    font-family: UbuntuSans-Regular;
+    src: url("../fontes/UbuntuSans-Regular.ttf");
+}
