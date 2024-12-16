@@ -34,18 +34,19 @@
 }
 
 .conteudo-principal h1 {
-    font: 5em UbuntuSans-Medium, sans-serif;
+    font: 5em 'UbuntuSans-Medium', sans-serif;
     text-align: center;
 }
 
 .conteudo-principal h2 {
-    font: 3.75em UbuntuSans-Light, sans-serif;
+    font: 3.75em 'UbuntuSans-Light', sans-serif;
     color: var(--marsala);
     text-align: right;
+    text-shadow: 1px 2px 5px var(--preto);
 }
 
 .conteudo-principal h3 {
-    font: 3.68em UbuntuSans_Condensed-Thin, sans-serif;
+    font: 3.68em 'UbuntuSans_Condensed-Thin', sans-serif;
     text-align: center;
     padding: 10%;
 }
@@ -65,7 +66,7 @@ ul {
 }
 
 .sobre-mim {
-    font: 2.06em UbuntuSans-Thin, sans-serif;
+    font: 2.06em 'UbuntuSans-Thin', sans-serif;
     color: var(--branco);
     display: flex;
     justify-content: center;
@@ -84,7 +85,7 @@ ul {
 
 .tecnologias h1 {
     color: var(--branco);
-    font: 2.62rem UbuntuSans-Regular, sans-serif;
+    font: 2.62rem 'UbuntuSans-Regular', sans-serif;
     padding-bottom: 1em;
 }
 
@@ -97,7 +98,7 @@ ul {
 .skill {
     background-color: var(--branco);
     border-radius: 10px;
-    font: 2.3em UbuntuSans-SemiBold, sans-serif;
+    font: 2.3em 'UbuntuSans-SemiBold', sans-serif;
     color: var(--preto);
     display: flex;
     align-items: center;
@@ -111,7 +112,7 @@ ul {
 }
 
 #section-projetos {
-    font: 3rem UbuntuSans-SemiBold, sans-serif;
+    font: 3rem 'UbuntuSans-SemiBold', sans-serif;
     color: var(--branco);
     text-align: center;
     padding-top: 5.31rem;
@@ -131,7 +132,11 @@ ul {
 }
 
 .projetos h2 {
-    font: 3.06rem UbuntuSans-Thin, sans-serif;
+    font: 3.06rem 'UbuntuSans-Thin', sans-serif;
+}
+
+.projetos h3 {
+    font: 2.2rem 'UbuntuSans_Condensed-Thin', sans-serif;
     padding-bottom: 2.25rem;
 }
 
@@ -139,24 +144,25 @@ ul {
     width: 25.6rem;
     height: 30.06rem;
     overflow: hidden;
+    cursor: pointer;
     background-color: var(--preto);
     border-radius: 10px;
 }
 
 .botao-projetos {
-    font: 2.43rem UbuntuSans-SemiBold, sans-serif;
+    font: 2rem 'UbuntuSans-SemiBold', sans-serif;
     color: var(--branco);
     background-color: var(--marsala);
     box-shadow: 0px 4px 8px 0px #00000033;
     
     border: none;
-    padding: 0.6rem 2rem;
+    padding: 0.9rem 2.3rem;
     border-radius: 40px;
     margin-top: 2.25rem;
 }
 
 .cta {
-    font: 2.5rem UbuntuSans-SemiBoldItalic, sans-serif;
+    font: 2.3rem 'UbuntuSans-SemiBoldItalic', sans-serif;
     color: var(--branco);
     text-align: center;
     padding-top: 20rem;
@@ -174,7 +180,7 @@ ul {
 
 footer {
     color: var(--branco);
-    font: 1.3rem UbuntuSans-Regular, sans-serif;
+    font: 1.3rem 'UbuntuSans-Regular', sans-serif;
     text-align: center;
     padding-top: 20rem;
     padding-bottom: 2rem;
