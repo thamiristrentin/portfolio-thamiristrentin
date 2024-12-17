@@ -30,7 +30,6 @@
 
 .logo {
     width: max-content;
-
 }
 
 .conteudo-principal h1 {
@@ -51,12 +50,16 @@
     padding: 10%;
 }
 
-ul {
+.logo ul {
     list-style: none;
     display: flex;
     gap: 2em;
     justify-content: center;
     padding-top: 2em;
+}
+
+.logo ul li {
+    cursor: pointer;
 }
 
 .section-sobre-mim {
