@@ -97,10 +97,6 @@
         max-width: 30.06rem;
     }
 
-    .conteudo-principal {
-        height: 100%;
-    }
-
     .conteudo-principal h1 {
         font-size: 4rem;
     }
@@ -179,10 +175,6 @@
 @media screen and (min-width: 769px) and (max-width: 992px) {
     .conteudo-principal, .section-sobre-mim, #section-projetos {
         max-width: 48.06rem;
-    }
-
-    .conteudo-principal {
-        height: 100%;
     }
 
     .section-sobre-mim {
@@ -323,10 +315,6 @@
         max-width: 75.06rem;
     }
 
-    .conteudo-principal {
-        height: 100%;
-    }
-
     .sobre-mim {
         gap: 4rem;
         flex-wrap: wrap;
@@ -372,10 +360,6 @@
         max-width: 100.06rem;
     }
 
-    .conteudo-principal {
-        height: 100%;
-    }
-
     #section-projetos {
         margin: 0 auto;
     }
@@ -394,5 +378,36 @@
 
     .botao-projetos {
         font-size: 3rem;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .conteudo-principal h1 {
+        font-size: 2.5rem;
+    }
+
+    .conteudo-principal h2 {
+        font-size: 2rem;
+    }
+
+    .conteudo-principal h3 {
+        font-size: 2.4rem;
+        padding-top: 20%;
+    }
+
+    .slogan {
+        padding-top: 0rem;
+    }
+
+    .logo {
+        padding-bottom: 1.5rem;
+    }
+
+    .logo li img {
+        width: 2rem;
+    }
+
+    .logo ul {
+        padding-top: 1rem;
     }
 }
