@@ -1,0 +1,398 @@
+@media screen and (max-width: 480px) {
+    .conteudo-principal, .section-sobre-mim, #section-projetos {
+        max-width: 21.87rem;
+    }
+
+    .conteudo-principal h1 {
+        font-size: 2.5rem;
+    }
+
+    .conteudo-principal h2 {
+        font-size: 2rem;
+    }
+
+    .conteudo-principal h3 {
+        font-size: 2.4rem;
+        padding-top: 20%;
+    }
+
+    .section-sobre-mim {
+        padding: 4rem 0rem 4rem 0rem;
+    }
+
+    .sobre-mim {
+        font-size: 1.7rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .sobre-mim p {
+        max-width: 21rem;
+        text-align: center;
+    }
+
+    .sobre-mim img {
+        width: 15rem;
+    }
+
+    .tecnologias {
+        padding-top: 5rem;
+    }
+
+    .tecnologias h1 {
+        font-size: 2rem;
+    }
+
+    .skills {
+        grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+        gap: 0.8rem;
+    }
+
+    .skill {
+        border-radius: 10px;
+        font-size: 1.1rem;
+        gap: 0.7rem;
+        min-width: 8rem;
+        padding: 0.5rem 0.2rem 0.5rem 1rem;
+    }
+    
+    .skill img {
+        height: 2rem;
+    }
+
+    #section-projetos {
+        font-size: 1.6rem;
+        margin: 0 auto;
+    }
+
+    .projetos {
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+       
+    .projetos h2 {
+        font-size: 2.6rem;
+    }
+
+    .cta {
+        font-size: 1.3rem;
+    }
+
+    .botao-projetos {
+        font-size: 1.2rem;
+    }
+
+    .botoes-cta {
+        gap: 1rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .conteudo-principal, .section-sobre-mim, #section-projetos {
+        max-width: 30.06rem;
+    }
+
+    .conteudo-principal {
+        height: 100%;
+    }
+
+    .conteudo-principal h1 {
+        font-size: 4rem;
+    }
+
+    .conteudo-principal h2 {
+        font-size: 3.2rem;
+    }
+
+    .section-sobre-mim {
+        padding: 4rem 0rem 4rem 0rem;
+    }
+
+    .sobre-mim {
+        font-size: 2.2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .sobre-mim p {
+        max-width: fit-content;
+        text-align: center;
+    }
+
+    .sobre-mim img {
+        width: 20rem;
+    }
+
+    .tecnologias {
+        padding-top: 7rem;
+    }
+
+    .tecnologias h1 {
+        font-size: 2.6rem;
+    }
+
+    .skills {
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        gap: 1.3rem;
+    }
+
+    .skill {
+        font-size: 1.5rem;
+        gap: 0.9rem;
+        min-width: 10rem;
+        padding: 0.5rem 0.2rem 0.5rem 1rem;
+    }
+
+    .skill img {
+        height: 3.2rem;
+    }
+
+    #section-projetos {
+        font-size: 2.1rem;
+        margin: 0 auto;
+    }
+
+    .projetos {
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+       
+    .projetos h2 {
+        font-size: 3.2rem;
+    }
+
+    .cta {
+        font-size: 1.8rem;
+    }
+
+    .botoes-cta {
+        gap: 3rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .conteudo-principal, .section-sobre-mim, #section-projetos {
+        max-width: 48.06rem;
+    }
+
+    .conteudo-principal {
+        height: 100%;
+    }
+
+    .section-sobre-mim {
+        padding: 6rem 0rem 6rem 0rem;
+    }
+
+    .sobre-mim {
+        font-size: 2.2rem;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .sobre-mim p {
+        max-width: fit-content;
+        text-align: center;
+    }
+
+    .sobre-mim img {
+        width: 23rem;
+    }
+
+    .tecnologias {
+        padding-top: 7rem;
+    }
+
+    .tecnologias h1 {
+        font-size: 2.8rem;
+    }
+
+    .skills {
+        grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+        gap: 1.5rem;
+    }
+
+    .skill {
+        font-size: 1.7rem;
+        gap: 0.9rem;
+        min-width: 13rem;
+        padding: 0.8rem 0.2rem 0.8rem 1rem;
+    }
+
+    .skill img {
+        height: 3rem;
+    }
+
+    #section-projetos {
+        font-size: 2.1rem;
+        margin: 0 auto;
+    }
+
+    .projetos {
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+       
+    .projetos h2 {
+        font-size: 3.2rem;
+    }
+
+    .cta {
+        font-size: 2.3rem;
+    }
+
+    .botoes-cta {
+        gap: 3rem;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .conteudo-principal, .section-sobre-mim, #section-projetos {
+        max-width: 62.06rem;
+    }
+
+    .section-sobre-mim {
+        padding: 2rem 0rem 6rem 0rem;
+    }
+
+    .sobre-mim {
+        font-size: 2.3rem;
+        margin: 0 auto;
+        align-items: center;
+        gap: 4rem;
+        flex-wrap: wrap;
+    }
+
+    .sobre-mim p {
+        width: 30rem;
+    }
+
+    .sobre-mim img {
+        width: 21rem;
+    }
+
+    .tecnologias {
+        padding-top: 7rem;
+    }
+
+    .tecnologias h1 {
+        font-size: 2.8rem;
+    }
+
+    .skills {
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        gap: 1.5rem;
+    }
+
+    .skill {
+        min-width: 20rem;
+    }
+
+    #section-projetos {
+        font-size: 2.8rem;
+        margin: 0 auto;
+    }
+
+    .projetos {
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+       
+    .projetos h2 {
+        font-size: 3.5rem;
+    }
+
+    .cta {
+        font-size: 2.6rem;
+    }
+
+    .botoes-cta {
+        gap: 4rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+    .conteudo-principal, .section-sobre-mim, #section-projetos {
+        max-width: 75.06rem;
+    }
+
+    .conteudo-principal {
+        height: 100%;
+    }
+
+    .sobre-mim {
+        gap: 4rem;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .sobre-mim p {
+        width: 42rem;
+    }
+
+    .sobre-mim img {
+        width: 25rem;
+    }
+
+    .tecnologias h1 {
+        font-size: 3rem;
+    }
+
+    .skills {
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        gap: 1.5rem;
+    }
+
+    .skill {
+        min-width: 20rem;
+    }
+
+    #section-projetos {
+        margin: 0 auto;
+    }
+
+    .projetos {
+        flex-wrap: wrap;
+    }
+
+    .botao-projetos {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1900px) {
+    .conteudo-principal, .section-sobre-mim, #section-projetos {
+        max-width: 100.06rem;
+    }
+
+    .conteudo-principal {
+        height: 100%;
+    }
+
+    #section-projetos {
+        margin: 0 auto;
+    }
+
+    .sobre-mim {
+        width: fit-content;
+    }
+
+    .sobre-mim img {
+        width: 24rem;
+    }
+
+    .projetos {
+        flex-wrap: wrap;
+    }
+
+    .botao-projetos {
+        font-size: 3rem;
+    }
+}

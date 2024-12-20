@@ -1,8 +1,5 @@
-.principal {
-    position: relative;
+#section-principal {
     height: 100vh;
-    width: 100vw;
-    overflow: hidden;
 }
 
 #video-bg {
@@ -16,7 +13,7 @@
 }
 
 .conteudo-principal {
-    height: 100vh;
+    height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -24,8 +21,9 @@
     transform: translate(-50%, -50%);
     color: var(--branco);
     display: flex;
+    gap: 55%;
+    padding-top: 8rem;
     flex-direction: column;
-    gap: 48%;
 }
 
 .logo {
@@ -47,7 +45,6 @@
 .conteudo-principal h3 {
     font: 3.68em 'UbuntuSans_Condensed-Thin', sans-serif;
     text-align: center;
-    padding: 10%;
 }
 
 .logo ul {
@@ -78,7 +75,6 @@
 
 .sobre-mim p {
     max-width: 65%;
-
 }
 
 .sobre-mim img {
@@ -121,17 +117,12 @@
     padding-top: 5.31rem;
 }
 
-.projeto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .projetos {
     display: flex;
     justify-content: center;
     gap: 6.37rem;
     padding-top: 4.62rem;
+    overflow: hidden; 
 }
 
 .projetos h2 {
@@ -143,21 +134,37 @@
     padding-bottom: 2.25rem;
 }
 
+.projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; 
+}
+
 .img-projeto {
     width: 25.6rem;
     height: 30.06rem;
     overflow: hidden;
     cursor: pointer;
-    background-color: var(--preto);
+    background-color: transparent;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    will-change: transform;
 }
+
+.project-image {
+    width: 100%; /* Garante que a largura seja mantida */
+    height: auto; /* Mantém a proporção */
+    transform: translateY(0); /* Posição inicial */
+    transition: transform 2s ease; /* Suaviza o movimento */
+    will-change: transform; /* Reduz a perda de qualidade ao animar */
+  }
 
 .botao-projetos {
     font: 2rem 'UbuntuSans-SemiBold', sans-serif;
     color: var(--branco);
     background-color: var(--marsala);
     box-shadow: 0px 4px 8px 0px #00000033;
-    
     border: none;
     padding: 0.9rem 2.3rem;
     border-radius: 40px;
